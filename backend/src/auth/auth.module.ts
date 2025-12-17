@@ -8,7 +8,7 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { JwtStrategy } from './jwt.strategy';
 import { LinkedAccount, LinkedAccountSchema } from './linked-account.schema';
 import { MongooseModule } from '@nestjs/mongoose/dist/mongoose.module';
-import { MailModule } from 'src/mail/mail.module';
+import { MailModule } from '../mail/mail.module';
 
 @Module({
   imports: [
