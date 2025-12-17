@@ -14,7 +14,7 @@ import { jwtDecode } from 'jwt-decode';
 import { InjectModel } from '@nestjs/mongoose/dist/common/mongoose.decorators';
 import { LinkedAccount, LinkedAccountDocument } from './linked-account.schema';
 import { Model } from 'mongoose';
-import { MailService } from 'src/mail/mail.service';
+import { MailService } from '../mail/mail.service';
 
 @Injectable()
 export class AuthService {
